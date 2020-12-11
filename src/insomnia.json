@@ -89,7 +89,7 @@
       "parameters": [
         {
           "name": "key",
-          "value": "foo",
+          "value": "",
           "disabled": true
         }
       ],
@@ -114,7 +114,7 @@
       "parameters": [
         {
           "name": "key",
-          "value": "foo",
+          "value": "",
           "disabled": true
         }
       ],
@@ -139,7 +139,7 @@
       "parameters": [
         {
           "name": "key",
-          "value": "foo",
+          "value": "",
           "disabled": true
         }
       ],

@@ -4,7 +4,8 @@ require('dotenv').config();
 
 const {
   REDIS_PASSWORD = '',
-  REDIS_URL
+  REDIS_URL,
+  REDIS_CA = ''
 } = process.env;
 
 const
@@ -33,6 +34,13 @@ const redisOptions = () => {
 
   if (REDIS_PASSWORD !== '') {
     options.password = REDIS_PASSWORD;
+  }
+  
+  if (REDIS_CA !== '') {
+    options.tls = {
+      cert: REDIS_CA,
+      ca: [ REDIS_CA ]
+    };
   }
 
   return options;

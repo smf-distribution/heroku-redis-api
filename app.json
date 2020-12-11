@@ -1,5 +1,6 @@
 {
   "name": "node-redis-api",
+  "description": "A Redis REST API with NodeJS using Expressjs and Redis",
   "repository": "https://github.com/velizarn/heroku-redis-api.git",
   "logo": "https://raw.githubusercontent.com/velizarn/heroku-redis-api/main/public/redis.png",
   "scripts": {},
@@ -23,23 +24,10 @@
   ],
   "stack": "heroku-20",
   "env": {
-    "LOG_LEVEL": {
-      "value": "info",
-      "required": false
-    },
     "REDIS_URL": {
       "description": "The URL of the Redis server",
       "value": "",
       "required": true
-    },
-    "TZ": {
-      "description": "Set time zone for your application",
-      "value": "Europe/Sofia",
-      "required": false
-    },
-    "WEB_CONCURRENCY": {
-      "value": "2",
-      "required": false
     },
     "WHITELIST_IP": {
       "description": "Allowed IP address, optional",
