@@ -43,6 +43,13 @@ const redisOptions = () => {
     };
   }
 
+  if (REDIS_CA !== '') {
+    options.tls = {
+      cert: REDIS_CA,
+      ca: [ REDIS_CA ]
+    };
+  }
+
   return options;
 };
 

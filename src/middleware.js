@@ -108,7 +108,6 @@ const skipMap = (req, res, next) => {
   }
 };
 
-
 /**
  * Restrict access by IP address/es
  *

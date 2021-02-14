@@ -1,6 +1,6 @@
 # heroku-redis-api
 
-![Redis + Node.js](public/redis-node.png)<br />
+<img src="public/redis.png" alt="Redis + Node.js" /><br />
 A Redis REST API with NodeJS using Expressjs and Redis, Inspired by [lucianostraga/heroku-redis-node-rest-api](https://github.com/lucianostraga/heroku-redis-node-rest-api).
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/velizarn/heroku-redis-api)

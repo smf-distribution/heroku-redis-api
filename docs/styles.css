@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  margin: 3rem 3rem 3rem 3rem;
+  font: .8em Verdana, sans-serif;
+}
+p {
+  line-height: 150%;
+}
+a:link, a:visited {
+  color: darkred;
+}
